@@ -53,8 +53,8 @@ int search(int ro,int co,int turn){
   int success=0;
   
   //(ro,co)の周囲8マスを調べる
-    for(i=-1;i<=1;i++){
-      for(j=-1;j<=1;j++){
+    for(i=-1; i<=1; i++){
+      for(j=-1; j<=1; j++){
 	if(!(i==0 && j==0)   &&
 	   //ro+i>=0 && ro+i<8 &&
 	   //co+j>=0 && co+j<8 &&
